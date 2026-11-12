@@ -2,9 +2,13 @@
   Run this file at first, in order to see what is it printng. Instead of the print() use the respective log level
 """
 ############################### LOGGER
+import csv
+import math
+import random
 from abc import ABC, abstractmethod
-from loguru import logger
 
+import matplotlib.pyplot as plt
+from loguru import logger
 
 
 class Bandit(ABC):
